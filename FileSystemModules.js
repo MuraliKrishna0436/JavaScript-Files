@@ -2,7 +2,7 @@ let fs = require('fs')
 
 // For Reading the file we use this format
 
- fs.readFile('./Folder/Sub1/Normal.txt',(err,data)=>{
+ fs.readFile('./Sample.txt',(err,data)=>{
      if(err){
          console.log("file not found")
      }
